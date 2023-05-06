@@ -1,0 +1,13 @@
+@import url('@Assets/less/main.less');
+body { 
+  background-color: #ececec;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+}
+*{
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+

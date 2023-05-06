@@ -1,0 +1,82 @@
+header .top-navigation {
+  width: 100%;
+  display: inline-flex;
+  background: #00483d;
+  padding: 6px 0;
+}
+header .top-navigation .container {
+  min-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+header .top-navigation .container ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+header .top-navigation .container ul a {
+  padding: 0 5px;
+  font-size: 1.3rem;
+}
+header .top-navigation .container ul a:hover {
+  color: #7fd6cb;
+}
+header .list .container {
+  min-width: 1200px;
+  width: 1200px;
+  margin: 60px auto;
+}
+header .list .container .root {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px #ccc;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  background: #00483d;
+}
+header .list .container .root li {
+  margin: 8px 14px 4px 14px;
+  display: inline-flex;
+}
+header .list .container .root li a {
+  display: grid;
+}
+header .list .container .root li a i {
+  font-size: 2.6rem;
+}
+header .list .container .root li a span {
+  font-size: 1rem;
+  margin: 6px 25px;
+}
+header .list .container .root li .sub-container {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  padding-top: 15px;
+}
+header .list .container .root li .sub-container .sub {
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px #ccc;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+}
+header .list .container .root li .sub-container .menu {
+  margin: 0 40px 20px 0;
+}
+header .list .container .root li .sub-container .menu a {
+  color: #333;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+header .list .container .root li .sub-container .menu h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+  margin-top: 20px;
+}
