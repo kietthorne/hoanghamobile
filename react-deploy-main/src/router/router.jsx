@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route} from 'react-route
 import PageHome from '@Pages/PageHome';
 import PageProducts from '@Pages/PageProducts';
 import PageProductDetails from '@Pages/PageProductDetails';
-import MainMenu from '@layout/MainMenu';
+import MainMenu from '@Layout/MainMenu';
 
 
 export const routes = [

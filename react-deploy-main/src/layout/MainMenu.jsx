@@ -1,6 +1,8 @@
 import { useCallback, useState } from "react";
 import { menuItems } from "../constants/menu";
 import MenuPopup from "./MenuPopup";
+import { Outlet} from "react-router-dom";
+
 
 export default function MainMenu() {
   const [menuItemPopup, setMenuItemsPopup] = useState(null);
@@ -14,7 +16,8 @@ export default function MainMenu() {
   };
 
   return (
-    <div className={"main-menu"}>
+    <>
+      <div className={"main-menu"}>
       {menuItems.map((i) => (
         <a
           onMouseEnter={() => onHoverItemMenu(i?.menuItems)}
@@ -36,5 +39,9 @@ export default function MainMenu() {
         onLeaveMenu={onLeaveItemMenu}
       />
     </div>
+     <main>
+      <Outlet />
+      </main>
+    </>
   );
 }

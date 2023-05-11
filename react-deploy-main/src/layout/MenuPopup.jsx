@@ -1,5 +1,5 @@
 // import PropTypes from "prop-types";
-
+import PageProductDetails from '@Pages/PageProductDetails';
 import { useEffect } from "react";
 
 // MenuPopup.propTypes = {
